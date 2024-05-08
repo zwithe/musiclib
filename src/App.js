@@ -5,7 +5,7 @@ import SearchBar from './components/SearchBar';
 import AlbumView from './components/AlbumView';
 import ArtistView from './components/ArtistView';
 function App() {
-  let [message, setMessage] = useState('Seach for music')
+  let [message, setMessage] = useState('Search for music')
   let [search, setSearch] = useState('')
   let [data, setData] = useState([])
   const API_URL = 'https://itunes.apple.com/search?term='
